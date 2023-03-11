@@ -15,8 +15,11 @@ from Functions.pointOfSale import pointOfSaleApi
 from Functions.businessService import businessServiceApi
 
 
+
+
 os.environ['env_variable'] = 'TEST'
-# os.environ['env_variable']='PRODUCTION'
+# os.environ['env_variable'] = 'PRODUCTION'--
+
 
 
 class DriverClass:

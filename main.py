@@ -4,6 +4,10 @@ import json
 app = FastAPI()
 
 
+@app.get("/")
+def runAutomation():
+    return {"msg":"Successfull"}
+
 @app.get("/api")
 def runAutomation():
     return {"msg":"Successfull"}
